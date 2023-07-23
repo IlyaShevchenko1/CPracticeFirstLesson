@@ -17,3 +17,19 @@ Console.Write("Input number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Your number is " + num);
 */
+
+// Task 1. Напишите программу, которая на входпринимает два числа и проверяет,
+// является ли первое число квадратом второго.
+
+Console.WriteLine("Input a first number");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input a second number");
+int num2 = Convert.ToInt32(Console.ReadLine());
+if (num1 == num2 * num2)
+{
+    Console.WriteLine("Yes");
+}
+else 
+{
+    Console.WriteLine("No");
+}
